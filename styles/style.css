@@ -1,0 +1,77 @@
+* {
+  padding: 0;
+  margin: 0;
+  transition: all 0.3s ease-in-out;
+}
+
+.center {
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+@font-face {
+  font-family: "Source Sans Pro Regular";
+  src: url("fonts/sourcesanspro/SourceSansPro-Regular.ttf");
+}
+@font-face {
+  font-family: "Source Sans Pro Bold";
+  src: url("fonts/sourcesanspro/SourceSansPro-Bold.ttf");
+}
+@font-face {
+  font-family: "Source Sans Pro Semibold";
+  src: url("fonts/sourcesanspro/SourceSansPro-SemiBold.ttf");
+}
+@font-face {
+  font-family: "Roboto Regular";
+  src: url("fonts/roboto/Roboto-Regular.ttf");
+}
+@font-face {
+  font-family: "Roboto Bold";
+  src: url("fonts/roboto/Roboto-Bold.ttf");
+}
+header.page-header {
+  padding-top: 80px;
+  padding-bottom: 250px;
+  background-image: url("../images/header-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+p.header-name {
+  color: #fff;
+  text-align: center;
+  font-family: "Source Sans Pro Semibold";
+  font-size: 21px;
+  margin-bottom: 200px;
+}
+
+div.header-text {
+  max-width: 530px;
+  text-shadow: 0px 0px 100px #000;
+}
+div.header-text h1 {
+  line-height: 57px;
+  margin-bottom: 20px;
+}
+div.header-text h1 span {
+  color: #fff;
+  display: block;
+  font-family: "Roboto Bold";
+  font-size: 63px;
+}
+div.header-text h1 .upper-header-text {
+  color: #b7b7b7;
+  font-size: 23px;
+}
+div.header-text p {
+  font-family: "Roboto Regular";
+  font-size: 14px;
+  color: #fff;
+  line-height: 21px;
+}
+
+* {
+  colo: red;
+}
+
+/*# sourceMappingURL=style.css.map */

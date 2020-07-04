@@ -1,0 +1,44 @@
+$header-col: #fff;
+$header-upper-text: #b7b7b7;
+header.page-header {
+  padding-top: 80px;
+  padding-bottom: 250px;
+  background-image: url("../images/header-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+p.header-name {
+  color: $header-col;
+  text-align: center;
+  font-family: "Source Sans Pro Semibold";
+  font-size: 21px;
+  margin-bottom: 200px;
+}
+
+div.header-text {
+  max-width: 530px;
+  text-shadow: 0px 0px 100px #000;
+  h1 {
+    line-height: 57px;
+    margin-bottom: 20px;
+    span {
+      color: $header-col;
+      display: block;
+      font-family: "Roboto Bold";
+      font-size: 63px;
+    }
+
+    .upper-header-text {
+      color: $header-upper-text;
+      font-size: 23px;
+    }
+  }
+
+  p {
+    font-family: "Roboto Regular";
+    font-size: 14px;
+    color: $header-col;
+    line-height: 21px;
+  }
+}

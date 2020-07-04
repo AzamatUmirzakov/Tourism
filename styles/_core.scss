@@ -1,0 +1,35 @@
+* {
+  padding: 0;
+  margin: 0;
+  transition: all 0.3s ease-in-out;
+}
+
+.center {
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+@font-face {
+  font-family: "Source Sans Pro Regular";
+  src: url("fonts/sourcesanspro/SourceSansPro-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Source Sans Pro Bold";
+  src: url("fonts/sourcesanspro/SourceSansPro-Bold.ttf");
+}
+
+@font-face {
+  font-family: "Source Sans Pro Semibold";
+  src: url("fonts/sourcesanspro/SourceSansPro-SemiBold.ttf");
+}
+
+@font-face {
+  font-family: "Roboto Regular";
+  src: url("fonts/roboto/Roboto-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Roboto Bold";
+  src: url("fonts/roboto/Roboto-Bold.ttf");
+}
