@@ -1,0 +1,34 @@
+section.gallery {
+  padding: 60px 0;
+  div.gallery-inside {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    max-width: 1000px;
+  }
+}
+
+header.gallery-text {
+  display: flex;
+  justify-content: space-between;
+  max-width: 700px;
+  margin-bottom: 55px;
+  font-family: "Roboto Light";
+  align-items: center;
+  p {
+    font-size: 13px;
+    max-width: 80%;
+    line-height: 20px;
+  }
+  h1 {
+    font-size: 30px;
+    font-weight: normal;
+    letter-spacing: 1.2px;
+  }
+}
+
+div.gallery-left {
+  position: absolute;
+  top: -135px;
+  right: 0;
+}
