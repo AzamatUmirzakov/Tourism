@@ -1,0 +1,25 @@
+section.banner {
+  padding: 100px 0;
+  background: url("../images/banner-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+div.gallery-text {
+  text-align: center;
+  color: #fff;
+  font-family: "Roboto Light";
+  min-width: 620px;
+  h1 {
+    font-size: 23px;
+    font-weight: normal;
+    display: inline-block;
+    padding: 9px 17px;
+    border: 1px solid #fff;
+    margin-bottom: 30px;
+  }
+  p {
+    font-size: 16px;
+    line-height: 26px;
+  }
+}
