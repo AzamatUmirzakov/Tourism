@@ -1,0 +1,59 @@
+$statistics-block-bg: #f5f5f5;
+
+section.statistics {
+  padding-top: 75px;
+  padding-bottom: 130px;
+}
+
+header.statistics-header {
+  font-family: "Roboto Light";
+  h1 {
+    text-align: center;
+    font-size: 30px;
+    letter-spacing: 1.2px;
+    font-weight: normal;
+  }
+  margin-bottom: 75px;
+}
+
+div.statistics-text {
+  font-family: "Roboto Light";
+  h1 {
+    font-size: 30px;
+    letter-spacing: 1.2px;
+    font-weight: normal;
+    font-family: "Roboto Light";
+    margin-bottom: 20px;
+  }
+  p {
+    line-height: 25px;
+    font-size: 17px;
+    text-align: justify;
+  }
+  margin-bottom: 35px;
+}
+
+div.statistics-block {
+  background: $statistics-block-bg;
+  padding: 15px 50px;
+  display: flex;
+  justify-content: space-between;
+  div.statistic-item {
+    p {
+      text-align: center;
+      span {
+        display: block;
+        &:first-child {
+          margin-bottom: 8px;
+          font-family: "Roboto Medium";
+          font-size: 28px;
+          letter-spacing: 1.12px;
+        }
+        &:last-child {
+          font-family: "Roboto Regular";
+          font-size: 20px;
+        }
+      }
+    }
+  }
+}

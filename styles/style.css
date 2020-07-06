@@ -135,4 +135,60 @@ div.gallery-text p {
   line-height: 26px;
 }
 
+section.statistics {
+  padding-top: 75px;
+  padding-bottom: 130px;
+}
+
+header.statistics-header {
+  font-family: "Roboto Light";
+  margin-bottom: 75px;
+}
+header.statistics-header h1 {
+  text-align: center;
+  font-size: 30px;
+  letter-spacing: 1.2px;
+  font-weight: normal;
+}
+
+div.statistics-text {
+  font-family: "Roboto Light";
+  margin-bottom: 35px;
+}
+div.statistics-text h1 {
+  font-size: 30px;
+  letter-spacing: 1.2px;
+  font-weight: normal;
+  font-family: "Roboto Light";
+  margin-bottom: 20px;
+}
+div.statistics-text p {
+  line-height: 25px;
+  font-size: 17px;
+  text-align: justify;
+}
+
+div.statistics-block {
+  background: #f5f5f5;
+  padding: 15px 50px;
+  display: flex;
+  justify-content: space-between;
+}
+div.statistics-block div.statistic-item p {
+  text-align: center;
+}
+div.statistics-block div.statistic-item p span {
+  display: block;
+}
+div.statistics-block div.statistic-item p span:first-child {
+  margin-bottom: 8px;
+  font-family: "Roboto Medium";
+  font-size: 28px;
+  letter-spacing: 1.12px;
+}
+div.statistics-block div.statistic-item p span:last-child {
+  font-family: "Roboto Regular";
+  font-size: 20px;
+}
+
 /*# sourceMappingURL=style.css.map */
