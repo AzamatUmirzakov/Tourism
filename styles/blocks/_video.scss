@@ -1,0 +1,43 @@
+section.video {
+  padding: 115px 0 105px 0;
+  background-image: url("../images/video-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  header.video-header {
+    color: #fff;
+    text-align: center;
+    font-family: "Roboto Light";
+    margin-bottom: 90px;
+    h1 {
+      font-size: 23px;
+      font-weight: normal;
+      display: inline-block;
+      padding: 9px 17px;
+      border: 1px solid #fff;
+      margin-bottom: 30px;
+    }
+    p {
+      font-size: 16px;
+      line-height: 26px;
+    }
+  }
+  div.video-block {
+    background: #282828;
+    padding: 300px 370px;
+    position: relative;
+    img {
+      max-width: 40px;
+      max-height: 40px;
+      position: absolute;
+      top: 50%;
+      margin-top: -20px;
+      left: 50%;
+      margin-left: -20px;
+    }
+    margin-bottom: 115px;
+  }
+  p._name {
+    font-size: 23px;
+    text-align: center;
+  }
+}

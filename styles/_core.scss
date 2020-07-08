@@ -1,3 +1,4 @@
+$name-col: #fff;
 * {
   padding: 0;
   margin: 0;
@@ -37,4 +38,11 @@
 @font-face {
   font-family: "Roboto Light";
   src: url("fonts/roboto/Roboto-Light.ttf");
+}
+
+._name {
+  font-family: "Roboto Regular";
+  font-size: 14px;
+  color: $name-col;
+  line-height: 21px;
 }

@@ -33,6 +33,13 @@
   font-family: "Roboto Light";
   src: url("fonts/roboto/Roboto-Light.ttf");
 }
+._name {
+  font-family: "Roboto Regular";
+  font-size: 14px;
+  color: #fff;
+  line-height: 21px;
+}
+
 header.page-header {
   padding-top: 80px;
   padding-bottom: 250px;
@@ -41,11 +48,14 @@ header.page-header {
   background-size: cover;
 }
 
-p.header-name {
+._name {
   color: #fff;
   text-align: center;
   font-family: "Source Sans Pro Semibold";
   font-size: 21px;
+}
+
+.header-name {
   margin-bottom: 200px;
 }
 
@@ -189,6 +199,50 @@ div.statistics-block div.statistic-item p span:first-child {
 div.statistics-block div.statistic-item p span:last-child {
   font-family: "Roboto Regular";
   font-size: 20px;
+}
+
+section.video {
+  padding: 115px 0 105px 0;
+  background-image: url("../images/video-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+section.video header.video-header {
+  color: #fff;
+  text-align: center;
+  font-family: "Roboto Light";
+  margin-bottom: 90px;
+}
+section.video header.video-header h1 {
+  font-size: 23px;
+  font-weight: normal;
+  display: inline-block;
+  padding: 9px 17px;
+  border: 1px solid #fff;
+  margin-bottom: 30px;
+}
+section.video header.video-header p {
+  font-size: 16px;
+  line-height: 26px;
+}
+section.video div.video-block {
+  background: #282828;
+  padding: 300px 370px;
+  position: relative;
+  margin-bottom: 115px;
+}
+section.video div.video-block img {
+  max-width: 40px;
+  max-height: 40px;
+  position: absolute;
+  top: 50%;
+  margin-top: -20px;
+  left: 50%;
+  margin-left: -20px;
+}
+section.video p._name {
+  font-size: 23px;
+  text-align: center;
 }
 
 /*# sourceMappingURL=style.css.map */

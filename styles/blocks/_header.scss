@@ -8,11 +8,14 @@ header.page-header {
   background-size: cover;
 }
 
-p.header-name {
+._name {
   color: $header-col;
   text-align: center;
   font-family: "Source Sans Pro Semibold";
   font-size: 21px;
+}
+
+.header-name {
   margin-bottom: 200px;
 }
 
